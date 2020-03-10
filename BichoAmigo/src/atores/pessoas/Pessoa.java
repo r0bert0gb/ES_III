@@ -10,6 +10,13 @@ public class Pessoa {
     private String telefone;
     //private Endereco endereco;
 
+    public Pessoa(String nome, String cpf, String telefone) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.telefone = telefone;
+    }
+
+    
     public String getNome() {
         return nome;
     }
